@@ -23,20 +23,43 @@ This Python project utilizes the CLIP (Contrastive Language–Image Pretraining)
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Options](#options)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/yourusername/clip-violence-detection.git
+   ```
+   git clone https://github.com/rvndudz/clip-violence-detection.git
+   ```
 
-Change to the project directory:
-  cd clip-violence-detection
+2. Change to the project directory:
+   ```
+   cd clip-violence-detection
+   ```
 
-Install the required Python packages:
-  pip install -r requirements.txt
+4. Install the required Python packages:
+   ```
+   pip install -r requirements.txt
+   ```
 
-Download the CLIP model weights:
-  python download_clip_model.py
+6. Download the CLIP model weights:
+   ```
+   python download_clip_model.py
+   ```
+
+## Usage
+- Video File Analysis
+- Live Webcam Analysis
+
+## Contributing
+### Contributions are welcome! If you would like to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your branch to your fork.
+5. Submit a pull request to the main branch of this repository.
+
+## License
+This project is licensed under the MIT License - see the [<ins>LICENSE</ins>](https://opensource.org/license/mit/) file for details.
